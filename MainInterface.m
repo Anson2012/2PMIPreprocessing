@@ -22,7 +22,7 @@ function varargout = MainInterface(varargin)
 
 % Edit the above text to modify the response to help MainInterface
 
-% Last Modified by GUIDE v2.5 23-Jan-2017 16:48:04
+% Last Modified by GUIDE v2.5 29-Jan-2017 15:21:27
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -240,7 +240,7 @@ function DenoisingBtn_Callback(hObject, eventdata, handles)
 listValue = get(handles.DenoisingMenu, 'value');
 
 switch listValue
-    case listValue
+    case 1
         run MedianFilterGUI.m;
 end
 
@@ -325,6 +325,11 @@ function EnhancingMenu_Callback(hObject, eventdata, handles)
 
 % Hints: contents = cellstr(get(hObject,'String')) returns EnhancingMenu contents as cell array
 %        contents{get(hObject,'Value')} returns selected item from EnhancingMenu
+global parmValue;
+
+EnhancingMenuValue = get(hObject, 'value');
+parmValue.EnhancingMenuValue = EnhancingMenuValue;
+
 
 
 % --- Executes during object creation, after setting all properties.
@@ -339,6 +344,9 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
+EnhancingMenuValue = parmValue.EnhancingMenuValue;
+set(hObject, 'value', EnhancingMenuValue);
+
 
 % --- Executes on button press in EnhancingBtn.
 function EnhancingBtn_Callback(hObject, eventdata, handles)
@@ -348,6 +356,85 @@ function EnhancingBtn_Callback(hObject, eventdata, handles)
 listValue = get(handles.EnhancingMenu, 'value');
 
 switch listValue
-    case listValue
+    case 1
         run NormalizeGUI.m;
 end
+
+
+% --- Executes on button press in RegistrationCheckbox.
+function RegistrationCheckbox_Callback(hObject, eventdata, handles)
+% hObject    handle to RegistrationCheckbox (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of RegistrationCheckbox
+global parmValue;
+
+RegistrationCheckboxValue = get(hObject, 'value');
+parmValue.RegistrationCheckboxValue = RegistrationCheckboxValue;
+
+
+% --- Executes on selection change in RegistrationMenu.
+function RegistrationMenu_Callback(hObject, eventdata, handles)
+% hObject    handle to RegistrationMenu (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: contents = cellstr(get(hObject,'String')) returns RegistrationMenu contents as cell array
+%        contents{get(hObject,'Value')} returns selected item from RegistrationMenu
+global parmValue;
+
+RegistrationMenuValue = get(hObject, 'value');
+parmValue.RegistrationMenuValue = RegistrationMenuValue;
+
+
+% --- Executes during object creation, after setting all properties.
+function RegistrationMenu_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to RegistrationMenu (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: popupmenu controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+global parmValue;
+
+RegistrationMenuValue = parmValue.RegistrationMenuValue;
+set(hObject, 'value', RegistrationMenuValue);
+
+
+% --- Executes on button press in RegistrationBtn.
+function RegistrationBtn_Callback(hObject, eventdata, handles)
+% hObject    handle to RegistrationBtn (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+listValue = get(handles.DenoisingMenu, 'value');
+
+switch listValue
+    case 1
+        run 1;
+end
+
+
+% --- Executes during object creation, after setting all properties.
+function RegistrationCheckbox_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to RegistrationCheckbox (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+global parmValue;
+
+RegistrationCheckboxValue = parmValue.RegistrationCheckboxValue;
+set(hObject, 'value', RegistrationCheckboxValue);
+
+
+% --- Executes during object creation, after setting all properties.
+function EnhancingCheckbox_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to EnhancingCheckbox (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+global parmValue;
+
+EnhancingCheckboxValue = parmValue.EnhancingCheckboxValue;
+set(hObject, 'value', EnhancingCheckboxValue);

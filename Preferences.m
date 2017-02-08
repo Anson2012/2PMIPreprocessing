@@ -11,7 +11,7 @@ function Preferences()
 
 %%%%%%%%%%%%%%%%Enhancing%%%%%%%%%%%%%%%%%%%%%%
 %checkbox default value: 0~1
-parmValue.EnhancingCheckboxValue = 1;
+parmValue.EnhancingCheckboxValue = 0;
 parmValue.EnhancingMenuValue = 1;
 
 %Normalize
@@ -23,7 +23,7 @@ parmValue.EnhancingParm.SaturatedPCT = 0.003;
 
 %%%%%%%%%%%%%%%%Denoising%%%%%%%%%%%%%%%%%%%%%%
 %checkbox default value: 0~1
-parmValue.DenoisingCheckboxValue = 1;
+parmValue.DenoisingCheckboxValue = 0;
 parmValue.DenoisingMenuValue = 1;
 
 
@@ -32,13 +32,18 @@ parmValue.DenoisingParm.radiusX = 2;
 parmValue.DenoisingParm.radiusY = 2;
 parmValue.DenoisingParm.radiusT = 2;
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
+%%%%%%%%%%%%%%%%Registration%%%%%%%%%%%%%%%%%%%%%%
+%checkbox default value: 0~1
+parmValue.RegistrationCheckboxValue = 0;
+parmValue.RegistrationMenuValue = 1;
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 %保存参数为.mat格式,这项无需修改
