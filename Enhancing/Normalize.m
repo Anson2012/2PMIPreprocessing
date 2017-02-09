@@ -59,6 +59,7 @@ for i = 1:frameNum
 end
 
 disp('Complete normalize.');
+toc
 disp(' ');
 
 

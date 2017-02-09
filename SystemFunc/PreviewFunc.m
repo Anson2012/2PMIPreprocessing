@@ -15,8 +15,14 @@ if(isempty(previewPath))
     return;
 end
 
+disp('Make preview ');
+disp(previewPath);
+disp(' ');
 
+
+tic %记录程序运行时间
 %read image stack
+disp('Read image stack');
 [frameNum, ~] = size(imfinfo(previewPath));
 previewImgStack = imread(previewPath, 1);
 [rows, cols] = size(previewImgStack);
@@ -25,6 +31,8 @@ for i = 2:frameNum
     previewImgStack = cat(3, previewImgStack, tempImg);
 end
 ProcessingImg = previewImgStack;
+toc
+disp(' ');
 
 
 
@@ -52,8 +60,25 @@ if(parmValue.DenoisingCheckboxValue == 1)
     end
 end
 
+
+
+%registration algorithm
+if(parmValue.RegistrationCheckboxValue == 1)
+    
+    switch parmValue.RegistrationMenuValue
+        case 1 
+            modality = parmValue.RegistrationParm.modality;
+            maxIteration = parmValue.RegistrationParm.maxIteration;
+            ProcessingImg = IntensityBasedRegistration(ProcessingImg, modality, maxIteration);
+    end
+end
+
+
+
 if(~isempty(ProcessingImg))
     ImgStackShowFunc(ProcessingImg);
 end
+
+
 
 

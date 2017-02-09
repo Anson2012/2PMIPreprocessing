@@ -22,6 +22,7 @@ else
 end
    
 disp('Complete 3-D median filter.');
+toc
 disp(' ');
 
 

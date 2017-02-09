@@ -9,6 +9,9 @@ function Preferences()
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+
+
+
 %%%%%%%%%%%%%%%%Enhancing%%%%%%%%%%%%%%%%%%%%%%
 %checkbox default value: 0~1
 parmValue.EnhancingCheckboxValue = 0;
@@ -28,9 +31,9 @@ parmValue.DenoisingMenuValue = 1;
 
 
 %3-D median filtering
-parmValue.DenoisingParm.radiusX = 2;
-parmValue.DenoisingParm.radiusY = 2;
-parmValue.DenoisingParm.radiusT = 2;
+parmValue.DenoisingParm.radiusX = 1;
+parmValue.DenoisingParm.radiusY = 1;
+parmValue.DenoisingParm.radiusT = 1;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -41,6 +44,10 @@ parmValue.DenoisingParm.radiusT = 2;
 parmValue.RegistrationCheckboxValue = 0;
 parmValue.RegistrationMenuValue = 1;
 
+
+%IntensityBasedRegistration
+parmValue.RegistrationParm.modality = 'multimodal'; %'multimodal' or 'monomodal'
+parmValue.RegistrationParm.maxIteration = 200;
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

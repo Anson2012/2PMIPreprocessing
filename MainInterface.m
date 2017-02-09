@@ -189,6 +189,7 @@ global listPath parmValue;
 disp('Global value is cleared.')
 listPath = {};
 parmValue = {};
+load('Preferences.mat');
 
 
 
@@ -343,6 +344,7 @@ function EnhancingMenu_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
+global parmValue;
 
 EnhancingMenuValue = parmValue.EnhancingMenuValue;
 set(hObject, 'value', EnhancingMenuValue);
@@ -414,7 +416,7 @@ listValue = get(handles.DenoisingMenu, 'value');
 
 switch listValue
     case 1
-        run 1;
+        run IntensityBasedRegistrationGUI.m;
 end
 
 
