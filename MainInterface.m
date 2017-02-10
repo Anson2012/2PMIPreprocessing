@@ -178,15 +178,6 @@ close(gcf);
 
 
 
-% --- Executes on button press in ClearBtn.
-function ClearBtn_Callback(hObject, eventdata, handles)
-% hObject    handle to ClearBtn (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-CleanGlobals;
-
-
-
 function CleanGlobals
 global listPath parmValue;
 disp('Global value is cleared.')
