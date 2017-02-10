@@ -5,7 +5,7 @@ function ImgStackShowFunc(ImgStack)
 %author:luyang
 %date:20170123
 %function:
-%
+%显示图像，支持8bit和16bit的单通道灰度图。
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 disp('Show image stack.');

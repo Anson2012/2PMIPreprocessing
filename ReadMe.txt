@@ -1,0 +1,1 @@
+1 只支持.tif格式的8bit，8bit-RGB,16bit,16bit-RGB的图像数据。

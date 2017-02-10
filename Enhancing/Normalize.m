@@ -58,6 +58,7 @@ for i = 1:frameNum
     enhanceImgStack = cat(3, enhanceImgStack, tempImg);
 end
 
+
 disp('Complete normalize.');
 toc
 disp(' ');

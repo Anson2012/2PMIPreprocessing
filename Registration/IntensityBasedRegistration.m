@@ -3,9 +3,9 @@ function registeredImgStack = IntensityBasedRegistration(imgStack, modality, max
 %name:Normalize.m
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %author:luyang
-%date:20170123
+%date:20170210
 %function:
-%灰度值拉伸，支持8bit和16bit的单通道灰度图
+%图像配准，支持8bit和16bit的单通道灰度图。
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 disp('Start registration.');
@@ -29,7 +29,7 @@ for i = 1:frameNum
     if(strcmpi(modality, 'multimodal'))
         optimizer.MaximumIterations = maximumIterations; %增加迭代次数
     elseif(strcmpi(modality, 'monomodal'))
-        
+        %待补充
     end
     [movingRegistered, R_reg] = imregister(movingImg, fixedImg, 'translation', optimizer, metric);
 
