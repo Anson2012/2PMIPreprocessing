@@ -10,8 +10,13 @@ function imgStack = ImgStackReadFunc(imgPath)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 disp('Read image stack.');
-
-[frameNum, ~] = size(imfinfo(imgPath));
+disp(imgPath);
+info = imfinfo(imgPath);
+[frameNum, ~] = size(info);
+tempInfo = info(1);
+disp(['Format:' tempInfo.Format ...
+        ' Width:' num2str(tempInfo.Width) ' Height:' num2str(tempInfo.Height) ...
+            ' BitDepth:' num2str(tempInfo.BitDepth)]);
 
 imgStack = imread(imgPath, 1);
 [rows, cols, channels] = size(imgStack);

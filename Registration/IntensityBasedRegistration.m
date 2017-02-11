@@ -9,6 +9,9 @@ function registeredImgStack = IntensityBasedRegistration(imgStack, modality, max
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 disp('Start registration.');
+disp(['modality:' modality ...
+        ' maximumIterations:' num2str(maximumIterations)]);
+
 [rows, cols, frameNum] = size(imgStack);
 fixedImg = imgStack(:, :, 1);
 
@@ -29,7 +32,7 @@ for i = 1:frameNum
     if(strcmpi(modality, 'multimodal'))
         optimizer.MaximumIterations = maximumIterations; %增加迭代次数
     elseif(strcmpi(modality, 'monomodal'))
-        %待补充
+        optimizer.MaximumIterations = maximumIterations; %增加迭代次数
     end
     [movingRegistered, R_reg] = imregister(movingImg, fixedImg, 'translation', optimizer, metric);
 

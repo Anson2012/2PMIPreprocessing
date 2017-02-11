@@ -19,7 +19,8 @@ disp('Start batch process image stack.');
 
 for i = 1:rows
     
-    tic %记录程序运行时间
+    %记录程序运行时间
+    tic 
     
     %开启保存日志
     saveDir = [listPath{i}(1:end - 4)];
@@ -48,6 +49,7 @@ end
 disp('Complete batch process image stack.');
 toc
 disp(' ');
+
 
 
 

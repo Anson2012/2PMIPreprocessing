@@ -15,6 +15,7 @@ end
 
 
 disp('Start save image stack.');
+disp(savePath(1:end - 4));
 [rows, cols, frameNum] = size(imgStack);
 
 

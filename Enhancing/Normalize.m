@@ -9,6 +9,7 @@ function enhanceImgStack = Normalize(ImgStack, SaturatedPCT)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 disp('Start normalize.');
+disp(['SaturatedPCT:' num2str(SaturatedPCT)]);
 [rows, cols, frameNum] = size(ImgStack);
 enhanceImgStack = [];
 

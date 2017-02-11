@@ -9,6 +9,9 @@ function smoothImgStack = MedianFilter(ImgStack, radiusX, radiusY, radiusT)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 disp('Start 3-D median filter.');
+disp(['radiusX:' num2str(radiusX) ...
+        ' radiusY:' num2str(radiusY) ...
+            ' radiusT:' num2str(radiusT)]);
 smoothImgStack = medfilt3(ImgStack, ...
                     [(2*radiusX+1) (2*radiusY+1) (2*radiusT+1)]);
         
