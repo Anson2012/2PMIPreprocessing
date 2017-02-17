@@ -1,231 +1,237 @@
 Read image stack.
+C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\Demo\setup13_16bit.tif
+Format:tif Width:512 Height:540 BitDepth:16
 Complete image stack.
-时间已过 0.302762 秒。
+时间已过 0.296730 秒。
  
 Start process image stack.
 Start normalize.
+SaturatedPCT:0.003
 Complete normalize.
-时间已过 2.529256 秒。
+时间已过 2.520433 秒。
  
 Start 3-D median filter.
+radiusX:1 radiusY:1 radiusT:1
 Complete 3-D median filter.
-时间已过 4.520625 秒。
+时间已过 4.581744 秒。
  
 Start registration.
+modality:multimodal maximumIterations:200
 Start to registration frame 1
-时间已过 7.098601 秒。
+时间已过 7.162080 秒。
 Start to registration frame 2
-时间已过 9.422843 秒。
+时间已过 9.496268 秒。
 Start to registration frame 3
-时间已过 11.702606 秒。
+时间已过 11.810050 秒。
 Start to registration frame 4
-时间已过 13.967474 秒。
+时间已过 14.095791 秒。
 Start to registration frame 5
-时间已过 16.275861 秒。
+时间已过 16.430357 秒。
 Start to registration frame 6
-时间已过 18.544068 秒。
+时间已过 18.752457 秒。
 Start to registration frame 7
-时间已过 20.440678 秒。
+时间已过 20.924424 秒。
 Start to registration frame 8
-时间已过 22.326365 秒。
+时间已过 22.865341 秒。
 Start to registration frame 9
-时间已过 24.216708 秒。
+时间已过 24.813285 秒。
 Start to registration frame 10
-时间已过 26.101367 秒。
+时间已过 26.845882 秒。
 Start to registration frame 11
-时间已过 27.986983 秒。
+时间已过 28.870551 秒。
 Start to registration frame 12
-时间已过 29.881801 秒。
+时间已过 30.849203 秒。
 Start to registration frame 13
-时间已过 31.761149 秒。
+时间已过 32.760155 秒。
 Start to registration frame 14
-时间已过 33.652980 秒。
+时间已过 35.210884 秒。
 Start to registration frame 15
-时间已过 35.537510 秒。
+时间已过 37.826389 秒。
 Start to registration frame 16
-时间已过 37.419820 秒。
+时间已过 40.234378 秒。
 Start to registration frame 17
-时间已过 39.312268 秒。
+时间已过 42.340160 秒。
 Start to registration frame 18
-时间已过 41.243818 秒。
+时间已过 44.336276 秒。
 Start to registration frame 19
-时间已过 43.177983 秒。
+时间已过 46.315335 秒。
 Start to registration frame 20
-时间已过 45.080059 秒。
+时间已过 48.276546 秒。
 Start to registration frame 21
-时间已过 46.969157 秒。
+时间已过 50.278160 秒。
 Start to registration frame 22
-时间已过 48.837830 秒。
+时间已过 52.318939 秒。
 Start to registration frame 23
-时间已过 50.743740 秒。
+时间已过 54.319672 秒。
 Start to registration frame 24
-时间已过 52.646461 秒。
+时间已过 56.278203 秒。
 Start to registration frame 25
-时间已过 54.551223 秒。
+时间已过 58.204204 秒。
 Start to registration frame 26
-时间已过 56.416102 秒。
+时间已过 60.257040 秒。
 Start to registration frame 27
-时间已过 58.307547 秒。
+时间已过 62.266389 秒。
 Start to registration frame 28
-时间已过 60.173722 秒。
+时间已过 64.193705 秒。
 Start to registration frame 29
-时间已过 62.081867 秒。
+时间已过 66.122717 秒。
 Start to registration frame 30
-时间已过 63.939350 秒。
+时间已过 68.071330 秒。
 Start to registration frame 31
-时间已过 65.833858 秒。
+时间已过 70.024849 秒。
 Start to registration frame 32
-时间已过 67.715728 秒。
+时间已过 72.202294 秒。
 Start to registration frame 33
-时间已过 69.596757 秒。
+时间已过 74.400283 秒。
 Start to registration frame 34
-时间已过 71.472689 秒。
+时间已过 76.623479 秒。
 Start to registration frame 35
-时间已过 73.329633 秒。
+时间已过 78.597424 秒。
 Start to registration frame 36
-时间已过 75.207571 秒。
+时间已过 80.612449 秒。
 Start to registration frame 37
-时间已过 77.070476 秒。
+时间已过 82.773304 秒。
 Start to registration frame 38
-时间已过 78.953655 秒。
+时间已过 84.813970 秒。
 Start to registration frame 39
-时间已过 80.848668 秒。
+时间已过 86.794251 秒。
 Start to registration frame 40
-时间已过 82.729696 秒。
+时间已过 88.827614 秒。
 Start to registration frame 41
-时间已过 84.608096 秒。
+时间已过 90.818855 秒。
 Start to registration frame 42
-时间已过 86.487146 秒。
+时间已过 92.841061 秒。
 Start to registration frame 43
-时间已过 88.361125 秒。
+时间已过 94.880608 秒。
 Start to registration frame 44
-时间已过 90.217247 秒。
+时间已过 96.976273 秒。
 Start to registration frame 45
-时间已过 92.090066 秒。
+时间已过 99.060534 秒。
 Start to registration frame 46
-时间已过 94.011644 秒。
+时间已过 101.155658 秒。
 Start to registration frame 47
-时间已过 95.900553 秒。
+时间已过 103.228236 秒。
 Start to registration frame 48
-时间已过 97.755985 秒。
+时间已过 105.313645 秒。
 Start to registration frame 49
-时间已过 99.633485 秒。
+时间已过 107.398386 秒。
 Start to registration frame 50
-时间已过 101.491345 秒。
+时间已过 109.486622 秒。
 Start to registration frame 51
-时间已过 103.363019 秒。
+时间已过 111.431471 秒。
 Start to registration frame 52
-时间已过 105.250460 秒。
+时间已过 113.471488 秒。
 Start to registration frame 53
-时间已过 107.124985 秒。
+时间已过 115.412327 秒。
 Start to registration frame 54
-时间已过 108.993181 秒。
+时间已过 117.360567 秒。
 Start to registration frame 55
-时间已过 110.860713 秒。
+时间已过 119.473784 秒。
 Start to registration frame 56
-时间已过 112.734840 秒。
+时间已过 121.498052 秒。
 Start to registration frame 57
-时间已过 114.614664 秒。
+时间已过 123.462391 秒。
 Start to registration frame 58
-时间已过 116.461698 秒。
+时间已过 125.383262 秒。
 Start to registration frame 59
-时间已过 118.348786 秒。
+时间已过 127.325607 秒。
 Start to registration frame 60
-时间已过 120.202563 秒。
+时间已过 129.371757 秒。
 Start to registration frame 61
-时间已过 122.095520 秒。
+时间已过 131.326167 秒。
 Start to registration frame 62
-时间已过 123.945571 秒。
+时间已过 133.299007 秒。
 Start to registration frame 63
-时间已过 125.824018 秒。
+时间已过 135.275493 秒。
 Start to registration frame 64
-时间已过 127.692389 秒。
+时间已过 137.202591 秒。
 Start to registration frame 65
-时间已过 129.602075 秒。
+时间已过 139.083509 秒。
 Start to registration frame 66
-时间已过 131.487378 秒。
+时间已过 141.020959 秒。
 Start to registration frame 67
-时间已过 133.372378 秒。
+时间已过 142.944528 秒。
 Start to registration frame 68
-时间已过 135.290408 秒。
+时间已过 144.900309 秒。
 Start to registration frame 69
-时间已过 137.134704 秒。
+时间已过 146.878978 秒。
 Start to registration frame 70
-时间已过 139.031488 秒。
+时间已过 148.853627 秒。
 Start to registration frame 71
-时间已过 140.917678 秒。
+时间已过 150.807605 秒。
 Start to registration frame 72
-时间已过 142.777009 秒。
+时间已过 152.815479 秒。
 Start to registration frame 73
-时间已过 144.640431 秒。
+时间已过 154.803893 秒。
 Start to registration frame 74
-时间已过 146.493167 秒。
+时间已过 156.966241 秒。
 Start to registration frame 75
-时间已过 148.342785 秒。
+时间已过 159.138525 秒。
 Start to registration frame 76
-时间已过 150.210481 秒。
+时间已过 161.110755 秒。
 Start to registration frame 77
-时间已过 152.108869 秒。
+时间已过 163.087379 秒。
 Start to registration frame 78
-时间已过 153.991440 秒。
+时间已过 165.174178 秒。
 Start to registration frame 79
-时间已过 155.866511 秒。
+时间已过 167.141884 秒。
 Start to registration frame 80
-时间已过 157.822709 秒。
+时间已过 169.078692 秒。
 Start to registration frame 81
-时间已过 159.721047 秒。
+时间已过 171.071621 秒。
 Start to registration frame 82
-时间已过 161.667973 秒。
+时间已过 173.046148 秒。
 Start to registration frame 83
-时间已过 163.582370 秒。
+时间已过 175.173700 秒。
 Start to registration frame 84
-时间已过 165.460868 秒。
+时间已过 177.431673 秒。
 Start to registration frame 85
-时间已过 167.379665 秒。
+时间已过 179.401498 秒。
 Start to registration frame 86
-时间已过 169.376689 秒。
+时间已过 181.518282 秒。
 Start to registration frame 87
-时间已过 171.394548 秒。
+时间已过 183.476417 秒。
 Start to registration frame 88
-时间已过 173.301727 秒。
+时间已过 185.438680 秒。
 Start to registration frame 89
-时间已过 175.198277 秒。
+时间已过 187.390809 秒。
 Start to registration frame 90
-时间已过 177.168718 秒。
+时间已过 189.338253 秒。
 Start to registration frame 91
-时间已过 179.164218 秒。
+时间已过 191.441937 秒。
 Start to registration frame 92
-时间已过 181.142511 秒。
+时间已过 193.464465 秒。
 Start to registration frame 93
-时间已过 183.103889 秒。
+时间已过 195.555766 秒。
 Start to registration frame 94
-时间已过 185.052651 秒。
+时间已过 197.853124 秒。
 Start to registration frame 95
-时间已过 187.028566 秒。
+时间已过 200.065258 秒。
 Start to registration frame 96
-时间已过 188.999957 秒。
+时间已过 202.306749 秒。
 Start to registration frame 97
-时间已过 190.939328 秒。
+时间已过 204.494222 秒。
 Start to registration frame 98
-时间已过 192.876667 秒。
+时间已过 206.685481 秒。
 Start to registration frame 99
-时间已过 194.818313 秒。
+时间已过 208.892075 秒。
 Start to registration frame 100
-时间已过 196.766978 秒。
+时间已过 211.117552 秒。
 Complete registration.
-时间已过 196.767418 秒。
+时间已过 211.118084 秒。
  
 Complete process image stack.
-时间已过 196.773657 秒。
+时间已过 211.124983 秒。
  
 Start save image stack.
+C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\Demo\setup13_16bit
 [警告: 目录已存在。] 
-[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ImgStackSaveFunc', 'C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIpreprocessing\SystemFunc\ImgStackSaveFunc.m', 24)" style="font-weight:bold">ImgStackSaveFunc</a> (<a href="matlab: opentoline('C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIpreprocessing\SystemFunc\ImgStackSaveFunc.m',24,0)">line 24</a>)
-  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ImgStackBatchProcessingFunc', 'C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIpreprocessing\SystemFunc\ImgStackBatchProcessingFunc.m', 39)" style="font-weight:bold">ImgStackBatchProcessingFunc</a> (<a href="matlab: opentoline('C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIpreprocessing\SystemFunc\ImgStackBatchProcessingFunc.m',39,0)">line 39</a>)
-  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MainInterface>StartBtn_Callback', 'C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIpreprocessing\MainInterface.m', 159)" style="font-weight:bold">MainInterface>StartBtn_Callback</a> (<a href="matlab: opentoline('C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIpreprocessing\MainInterface.m',159,0)">line 159</a>)
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ImgStackSaveFunc', 'C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\SystemFunc\ImgStackSaveFunc.m', 25)" style="font-weight:bold">ImgStackSaveFunc</a> (<a href="matlab: opentoline('C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\SystemFunc\ImgStackSaveFunc.m',25,0)">line 25</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ImgStackBatchProcessingFunc', 'C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\SystemFunc\ImgStackBatchProcessingFunc.m', 40)" style="font-weight:bold">ImgStackBatchProcessingFunc</a> (<a href="matlab: opentoline('C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\SystemFunc\ImgStackBatchProcessingFunc.m',40,0)">line 40</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MainInterface>StartBtn_Callback', 'C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\MainInterface.m', 159)" style="font-weight:bold">MainInterface>StartBtn_Callback</a> (<a href="matlab: opentoline('C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\MainInterface.m',159,0)">line 159</a>)
   In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\MATLAB\R2016b\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2016b\toolbox\matlab\guide\gui_mainfcn.m',95,0)">line 95</a>)
-  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MainInterface', 'C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIpreprocessing\MainInterface.m', 42)" style="font-weight:bold">MainInterface</a> (<a href="matlab: opentoline('C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIpreprocessing\MainInterface.m',42,0)">line 42</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MainInterface', 'C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\MainInterface.m', 42)" style="font-weight:bold">MainInterface</a> (<a href="matlab: opentoline('C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\MainInterface.m',42,0)">line 42</a>)
   In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)MainInterface(''StartBtn_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)MainInterface('StartBtn_Callback',hObject,eventdata,guidata(hObject))</a>] 
 Complete save image stack.
-时间已过 197.512361 秒。
+时间已过 211.823649 秒。
  

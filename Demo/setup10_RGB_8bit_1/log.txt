@@ -1,0 +1,237 @@
+Read image stack.
+C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\Demo\setup10_RGB_8bit_1.tif
+Format:tif Width:256 Height:256 BitDepth:24
+Complete image stack.
+时间已过 0.194067 秒。
+ 
+Start process image stack.
+Start normalize.
+SaturatedPCT:0.003
+Complete normalize.
+时间已过 0.248443 秒。
+ 
+Start 3-D median filter.
+radiusX:1 radiusY:1 radiusT:1
+Complete 3-D median filter.
+时间已过 0.913684 秒。
+ 
+Start registration.
+modality:multimodal maximumIterations:200
+Start to registration frame 1
+时间已过 1.743907 秒。
+Start to registration frame 2
+时间已过 2.557663 秒。
+Start to registration frame 3
+时间已过 3.369021 秒。
+Start to registration frame 4
+时间已过 4.189660 秒。
+Start to registration frame 5
+时间已过 5.018564 秒。
+Start to registration frame 6
+时间已过 5.826101 秒。
+Start to registration frame 7
+时间已过 6.648244 秒。
+Start to registration frame 8
+时间已过 7.465100 秒。
+Start to registration frame 9
+时间已过 8.269848 秒。
+Start to registration frame 10
+时间已过 9.084276 秒。
+Start to registration frame 11
+时间已过 9.898483 秒。
+Start to registration frame 12
+时间已过 10.721478 秒。
+Start to registration frame 13
+时间已过 11.531113 秒。
+Start to registration frame 14
+时间已过 12.352486 秒。
+Start to registration frame 15
+时间已过 13.171091 秒。
+Start to registration frame 16
+时间已过 13.983818 秒。
+Start to registration frame 17
+时间已过 14.796130 秒。
+Start to registration frame 18
+时间已过 15.621201 秒。
+Start to registration frame 19
+时间已过 16.423784 秒。
+Start to registration frame 20
+时间已过 17.250519 秒。
+Start to registration frame 21
+时间已过 18.059862 秒。
+Start to registration frame 22
+时间已过 18.871699 秒。
+Start to registration frame 23
+时间已过 19.628302 秒。
+Start to registration frame 24
+时间已过 20.405381 秒。
+Start to registration frame 25
+时间已过 21.173492 秒。
+Start to registration frame 26
+时间已过 21.948647 秒。
+Start to registration frame 27
+时间已过 22.709986 秒。
+Start to registration frame 28
+时间已过 23.465444 秒。
+Start to registration frame 29
+时间已过 24.228484 秒。
+Start to registration frame 30
+时间已过 24.973291 秒。
+Start to registration frame 31
+时间已过 25.694291 秒。
+Start to registration frame 32
+时间已过 26.461271 秒。
+Start to registration frame 33
+时间已过 27.191381 秒。
+Start to registration frame 34
+时间已过 27.923782 秒。
+Start to registration frame 35
+时间已过 28.704788 秒。
+Start to registration frame 36
+时间已过 29.466629 秒。
+Start to registration frame 37
+时间已过 30.220618 秒。
+Start to registration frame 38
+时间已过 30.987044 秒。
+Start to registration frame 39
+时间已过 31.728699 秒。
+Start to registration frame 40
+时间已过 32.508529 秒。
+Start to registration frame 41
+时间已过 33.328840 秒。
+Start to registration frame 42
+时间已过 34.057272 秒。
+Start to registration frame 43
+时间已过 34.776991 秒。
+Start to registration frame 44
+时间已过 35.517709 秒。
+Start to registration frame 45
+时间已过 36.257679 秒。
+Start to registration frame 46
+时间已过 36.986237 秒。
+Start to registration frame 47
+时间已过 37.713462 秒。
+Start to registration frame 48
+时间已过 38.447309 秒。
+Start to registration frame 49
+时间已过 39.179119 秒。
+Start to registration frame 50
+时间已过 39.923266 秒。
+Start to registration frame 51
+时间已过 40.671326 秒。
+Start to registration frame 52
+时间已过 41.407969 秒。
+Start to registration frame 53
+时间已过 42.141259 秒。
+Start to registration frame 54
+时间已过 42.885503 秒。
+Start to registration frame 55
+时间已过 43.628212 秒。
+Start to registration frame 56
+时间已过 44.377363 秒。
+Start to registration frame 57
+时间已过 45.094996 秒。
+Start to registration frame 58
+时间已过 45.845653 秒。
+Start to registration frame 59
+时间已过 46.580125 秒。
+Start to registration frame 60
+时间已过 47.323885 秒。
+Start to registration frame 61
+时间已过 48.080491 秒。
+Start to registration frame 62
+时间已过 48.842086 秒。
+Start to registration frame 63
+时间已过 49.589061 秒。
+Start to registration frame 64
+时间已过 50.338165 秒。
+Start to registration frame 65
+时间已过 51.084212 秒。
+Start to registration frame 66
+时间已过 51.818726 秒。
+Start to registration frame 67
+时间已过 52.589251 秒。
+Start to registration frame 68
+时间已过 53.348371 秒。
+Start to registration frame 69
+时间已过 54.072577 秒。
+Start to registration frame 70
+时间已过 54.826579 秒。
+Start to registration frame 71
+时间已过 55.575745 秒。
+Start to registration frame 72
+时间已过 56.328134 秒。
+Start to registration frame 73
+时间已过 57.057980 秒。
+Start to registration frame 74
+时间已过 57.804212 秒。
+Start to registration frame 75
+时间已过 58.549700 秒。
+Start to registration frame 76
+时间已过 59.298847 秒。
+Start to registration frame 77
+时间已过 60.041004 秒。
+Start to registration frame 78
+时间已过 60.832283 秒。
+Start to registration frame 79
+时间已过 61.603314 秒。
+Start to registration frame 80
+时间已过 62.335710 秒。
+Start to registration frame 81
+时间已过 63.061114 秒。
+Start to registration frame 82
+时间已过 63.802167 秒。
+Start to registration frame 83
+时间已过 64.568645 秒。
+Start to registration frame 84
+时间已过 65.326426 秒。
+Start to registration frame 85
+时间已过 66.082583 秒。
+Start to registration frame 86
+时间已过 66.850549 秒。
+Start to registration frame 87
+时间已过 67.599800 秒。
+Start to registration frame 88
+时间已过 68.353815 秒。
+Start to registration frame 89
+时间已过 69.089034 秒。
+Start to registration frame 90
+时间已过 69.836450 秒。
+Start to registration frame 91
+时间已过 70.580252 秒。
+Start to registration frame 92
+时间已过 71.319555 秒。
+Start to registration frame 93
+时间已过 72.057124 秒。
+Start to registration frame 94
+时间已过 72.817168 秒。
+Start to registration frame 95
+时间已过 73.568785 秒。
+Start to registration frame 96
+时间已过 74.326829 秒。
+Start to registration frame 97
+时间已过 75.087585 秒。
+Start to registration frame 98
+时间已过 75.831424 秒。
+Start to registration frame 99
+时间已过 76.595505 秒。
+Start to registration frame 100
+时间已过 77.338874 秒。
+Complete registration.
+时间已过 77.339168 秒。
+ 
+Complete process image stack.
+时间已过 77.339971 秒。
+ 
+Start save image stack.
+C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\Demo\setup10_RGB_8bit_1
+[警告: 目录已存在。] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ImgStackSaveFunc', 'C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\SystemFunc\ImgStackSaveFunc.m', 25)" style="font-weight:bold">ImgStackSaveFunc</a> (<a href="matlab: opentoline('C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\SystemFunc\ImgStackSaveFunc.m',25,0)">line 25</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ImgStackBatchProcessingFunc', 'C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\SystemFunc\ImgStackBatchProcessingFunc.m', 40)" style="font-weight:bold">ImgStackBatchProcessingFunc</a> (<a href="matlab: opentoline('C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\SystemFunc\ImgStackBatchProcessingFunc.m',40,0)">line 40</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MainInterface>StartBtn_Callback', 'C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\MainInterface.m', 159)" style="font-weight:bold">MainInterface>StartBtn_Callback</a> (<a href="matlab: opentoline('C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\MainInterface.m',159,0)">line 159</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\MATLAB\R2016b\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2016b\toolbox\matlab\guide\gui_mainfcn.m',95,0)">line 95</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MainInterface', 'C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\MainInterface.m', 42)" style="font-weight:bold">MainInterface</a> (<a href="matlab: opentoline('C:\Users\Anson\OneDrive\ActiveProjects\CBP Data Processing\2PMIPreprocessing\MainInterface.m',42,0)">line 42</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)MainInterface(''StartBtn_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)MainInterface('StartBtn_Callback',hObject,eventdata,guidata(hObject))</a>] 
+Complete save image stack.
+时间已过 77.811071 秒。
+ 

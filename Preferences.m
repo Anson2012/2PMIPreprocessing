@@ -55,3 +55,6 @@ parmValue.RegistrationParm.maxIteration = 200;
 
 %保存参数为.mat格式,这项无需修改
 save('Preferences.mat','parmValue');
+
+
+

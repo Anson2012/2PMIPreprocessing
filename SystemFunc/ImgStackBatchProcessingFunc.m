@@ -17,7 +17,7 @@ disp('Start batch process image stack.');
 
 [rows, cols] = size(listPath);
 
-for i = 1:rows
+for i = 1:cols
     
     %记录程序运行时间
     tic 

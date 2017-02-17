@@ -80,7 +80,7 @@ function MainInterface_CreateFcn(hObject, eventdata, handles)
 % handles    empty - handles not created until after all CreateFcns called
 global parmValue;
 
-display('Start 2PMIpreprocessing software.');
+display('Start 2PMIPreprocessing software.');
 display('Powered by luyang.');
 disp(' ');
 
